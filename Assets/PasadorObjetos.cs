@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PasadorDeObjeto : MonoBehaviour
+public class PasadorObjetos : MonoBehaviour
 {
     public GameObject[] objetos;
     public int Index = 10;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         DeactivateAll();
@@ -55,7 +55,10 @@ public class PasadorDeObjeto : MonoBehaviour
         {
             objetos[i].SetActive(false);
         }
-
     }
 
+
+
 }
+
+
